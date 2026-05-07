@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+:root {
+  --cream: #FAF7F2;
+  --warm-white: #FDFCFA;
+  --espresso: #1A1410;
+  --mahogany: #3D1F14;
+  --gold: #C9A96E;
+  --gold-light: #E8D5B0;
+  --sage: #6B7B6E;
+  --blush: #E8D5CC;
+  --text: #2C2018;
+  --text-muted: #7A6A5A;
+  --border: rgba(201,169,110,0.2);
+  --section-gap: 100px;
+}
+
+@theme {
+  --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Cormorant Garamond', ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --color-cream: var(--cream);
+  --color-warm-white: var(--warm-white);
+  --color-espresso: var(--espresso);
+  --color-mahogany: var(--mahogany);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-sage: var(--sage);
+  --color-blush: var(--blush);
+  --color-text-main: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-border-theme: var(--border);
+}
+
+body {
+  background: var(--cream);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+
